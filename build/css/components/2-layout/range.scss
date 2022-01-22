@@ -1,0 +1,21 @@
+.range {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 14px;
+  background: $black-1;
+  width: calc(100% - 90px);
+  &__value {
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    img {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 790px;
+      height: 100%;
+    }
+  }
+}

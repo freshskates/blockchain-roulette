@@ -1,0 +1,52 @@
+.footer {
+  padding: 20px 0;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-side {
+      display: flex;
+      align-items: center;
+    }
+    &-fair {
+      padding: 7px 10px;
+      background: rgba(157, 116, 245, 0.15);
+      border-radius: 2px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: $main;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 15px;
+        margin-right: 3px;
+      }
+    }
+    &-verify {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: $gray;
+      @include transition;
+      &:hover {
+        color: $main;
+      }
+    }
+    &-how {
+      padding: 7px 10px;
+      background: rgba(102, 108, 112, 0.15);
+      border-radius: 2px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: $gray;
+      @include transition;
+      &:hover {
+        background: rgba(157, 116, 245, 0.15);
+        color: $main;
+      }
+    }
+  }
+}
